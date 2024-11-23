@@ -1,0 +1,80 @@
+export const mockGifts = [
+  {
+    id: '1',
+    title: 'Sony WH-1000XM4 Wireless Noise-Canceling Headphones',
+    price: 299.99,
+    rating: 4.8,
+    reviews: 1250,
+    image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80',
+    description: 'Industry-leading noise canceling with Dual Noise Sensor technology',
+    platform: 'amazon',
+    inStock: true,
+    shipping: 'Free Prime Delivery',
+    category: 'Electronics'
+  },
+  {
+    id: '2',
+    title: 'Le Creuset Enameled Cast Iron Dutch Oven',
+    price: 349.95,
+    rating: 4.9,
+    reviews: 892,
+    image: 'https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=800&q=80',
+    description: 'Premium enameled cast iron Dutch oven for perfect cooking results',
+    platform: 'walmart',
+    inStock: true,
+    shipping: '2-Day Shipping',
+    category: 'Kitchen'
+  },
+  {
+    id: '3',
+    title: 'Nike Air Zoom Pegasus 38 Running Shoes',
+    price: 119.99,
+    rating: 4.6,
+    reviews: 756,
+    image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80',
+    description: 'Responsive running shoes with Nike React foam technology',
+    platform: 'amazon',
+    inStock: true,
+    shipping: 'Free Prime Delivery',
+    category: 'Sports'
+  },
+  {
+    id: '4',
+    title: 'Kindle Paperwhite E-reader',
+    price: 139.99,
+    rating: 4.7,
+    reviews: 2150,
+    image: 'https://images.unsplash.com/photo-1592496431122-2349e0fbc666?auto=format&fit=crop&w=800&q=80',
+    description: 'Waterproof e-reader with a 6.8" display and adjustable warm light',
+    platform: 'amazon',
+    inStock: true,
+    shipping: 'Free Prime Delivery',
+    category: 'Electronics'
+  },
+  {
+    id: '5',
+    title: 'Nintendo Switch OLED Model',
+    price: 349.99,
+    rating: 4.9,
+    reviews: 1876,
+    image: 'https://images.unsplash.com/photo-1578303512597-81e6cc155b3e?auto=format&fit=crop&w=800&q=80',
+    description: 'Vibrant 7-inch OLED screen with enhanced audio',
+    platform: 'walmart',
+    inStock: true,
+    shipping: 'Next Day Delivery Available',
+    category: 'Gaming'
+  },
+  {
+    id: '6',
+    title: 'Lululemon Align High-Rise Pants',
+    price: 98.00,
+    rating: 4.8,
+    reviews: 1543,
+    image: 'https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=800&q=80',
+    description: 'Buttery-soft, weightless feeling yoga pants',
+    platform: 'amazon',
+    inStock: true,
+    shipping: 'Free Prime Delivery',
+    category: 'Fashion'
+  }
+] as const;
